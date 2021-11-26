@@ -12,5 +12,9 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
+    "gatsby-plugin-mdx",
+    "gatsby-remark-autolink-headers",
+    "gatsby-remark-prismjs",
+    "gatsby-remark-images"
   ],
 };

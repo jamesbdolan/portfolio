@@ -15,6 +15,7 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-remark-autolink-headers",
     "gatsby-remark-prismjs",
-    "gatsby-remark-images"
+    "gatsby-remark-images",
+    "gatsby-transformer-sharp"
   ],
 };

@@ -1,0 +1,28 @@
+---
+title: "2021.11.30"
+date: "2021-11-30"
+author: "Jim"
+hero_image: "./alessandro-ranica-8373PaczWGE-unsplash.jpg"
+hero_image_alt: ""
+hero_image_credit_text: "Alessandro Ranica"
+hero_image_credit_link: "https://unsplash.com/photos/8373PaczWGE"
+---
+
+This serves as a kind of work diary, noting the interesting tools used and 
+the problems solved. After 7 days I may summarise the posts into 1 post.
+I will figure out the format/style/layout later.
+
+I downloaded Ansible, along with Vagrant and VirtualBox, while folling along with
+Jeff Geerling's Ansible 101 [youtube playlist](https://youtu.be/goclfp6a2IQ)
+
+After pausing learning about Ansible that one I moved over to picked up a colleague's work and 
+deployed an Elasticsearch/Kibana/Fluentd stack along our app containers.
+
+I had a slight detour midway through that while trying to help a colleague with test data.
+We currently have source data in `src/` and our test data is alongside our unit tests under `tests/`.
+The test data is in kdb+ format, which git cannot diff.
+* problem 1 - the overhead in modifying the test data
+* problem 2 is compounded 1 - when a dev is hoping to merge the test data, there could be conflicts 
+That brought us to the idea that we may well require two solutions:
+* add the ability to write tests with data that can be generated with a function
+* write the data in plaintext and transform it into kdb format at run time

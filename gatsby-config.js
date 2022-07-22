@@ -12,12 +12,12 @@ module.exports = {
         path: `${__dirname}/blog`,
       }
     },
-    {
-      resolve: `gatsby-plugin-favicons`,
-      options: {
-        logo: "./src/images/favicon.png"
-      }
-    },
+    // {
+    //   resolve: `gatsby-plugin-favicons`,
+    //   options: {
+    //     logo: "./src/images/favicon.png"
+    //   }
+    // },
     "gatsby-plugin-mdx",
     "gatsby-remark-autolink-headers",
     "gatsby-remark-prismjs",

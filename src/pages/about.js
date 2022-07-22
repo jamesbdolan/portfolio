@@ -10,7 +10,8 @@ const AboutPage = () => {
         When I landed my first job a few months after graduating, 
         I was quite delighted to finally be an engineer, 
         even if I was 'only' a software engineer.
-        I think my goal is to work on software at the human-machine interface, to improve human health.</p>
+        I think my goal is to work on software at the human-machine interface, to improve human health.
+        Currently I am a devops engineer</p>
     </Layout>
   )
 }

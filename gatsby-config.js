@@ -22,6 +22,17 @@ module.exports = {
     "gatsby-remark-autolink-headers",
     "gatsby-remark-prismjs",
     "gatsby-remark-images",
-    "gatsby-transformer-sharp"
+    "gatsby-transformer-sharp",
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: `James Dolan's portfolio`,
+        description: `Portfolio to showcase my abilities as a software engineer`,
+        start_url: `/`,
+        lang: `en`,
+        icon: 'src/images/favicon.png'
+      },
+    },
+    'gatsby-plugin-offline'
   ],
 };

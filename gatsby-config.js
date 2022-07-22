@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Portfolio",
+    title: "",
   },
   plugins: [
     "gatsby-plugin-image",
@@ -10,6 +10,12 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
+      }
+    },
+    {
+      resolve: `gatsby-plugin-favicons`,
+      options: {
+        logo: "./src/images/favicon.png"
       }
     },
     "gatsby-plugin-mdx",

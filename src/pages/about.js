@@ -4,14 +4,10 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
     <Layout pageTitle="More about me">
-      <p>I never planned on becoming a software engineer. 
-        I did an undergrad in physics and did not know what I wanted to do after university. 
-        Grass is always greener, but I always regretted not doing engineering. 
-        When I landed my first job a few months after graduating, 
-        I was quite delighted to finally be an engineer, 
-        even if I was 'only' a software engineer.
-        I think my goal is to work on software at the human-machine interface, to improve human health.
-        Currently I am a devops engineer</p>
+      <p>I never planned to work in software.
+        I did an undergrad in physics and did not know what to do with it.
+        Currently I am a devops engineer for Zinkworks where I work with Ericsson on their orchestration software.
+        Since starting this role I have enjoyed learning about telecoms infrastructure</p>
     </Layout>
   )
 }

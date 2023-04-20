@@ -16,6 +16,8 @@
     }
   </script>
 
+<h1>Add</h1>
+
   <input type="number" bind:value={a}> +
   <input type="number" bind:value={b}> =
   {total}

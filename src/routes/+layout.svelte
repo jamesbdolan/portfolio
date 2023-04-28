@@ -1,12 +1,14 @@
 <script>
-	import { getAnalytics, logEvent } from 'firebase/analytics';
-	import { onMount } from 'svelte';
-	import { app } from '../firebase';
+    import '@picocss/pico'
+    import '../app.css'
+	// import { getAnalytics, logEvent } from 'firebase/analytics';
+	// import { onMount } from 'svelte';
+	// import { app } from '../firebase';
 
-    onMount(() => {
-		const analytics = getAnalytics(app);
-		logEvent(analytics, 'page_title');
-	});
+    // onMount(() => {
+	// 	const analytics = getAnalytics(app);
+	// 	logEvent(analytics, 'page_title');
+	// });
 </script>
 
 <nav>

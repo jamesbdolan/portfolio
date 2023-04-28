@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@picocss/pico": "^1.5.10",
 		"firebase": "^9.20.0",
 		"svelte-cubed": "^0.2.1",
 		"three": "^0.151.3"

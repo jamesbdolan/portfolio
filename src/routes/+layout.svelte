@@ -16,7 +16,7 @@
         <li>
             <a href="/">Home</a>
             <a href="/about">About</a>
-            <a href="/blog/hello-world">Blog</a>
+            <a href="/projects/hello-world">Projects</a>
             <a href="/add">Add</a>
         </li>
     </ul>

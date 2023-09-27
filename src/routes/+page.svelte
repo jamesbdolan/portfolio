@@ -1,9 +1,12 @@
-<h1>Hello! I'm James, a software engineer in Dublin</h1>
+<h1>Hello! I'm James, a DevOps engineer in Melbourne</h1>
 <p>
+    I moved here from Dublin just a couple of weeks ago.
+    This site is constantly improving and is here to boost my CV and showcase my skills.
+    I took a hiatus from working on this site while I spent the summer with family before moving here.
     I am working through Svelte tutorials given by YouTubers <a href="https://www.youtube.com/@JoyofCodeDev">Joy of Code</a> and <a href="https://www.youtube.com/@Huntabyte">Huntabyte</a>.
 </p>
 <h3>Goals</h3>
-<p>The emoji are here to boost positivity 🌸</p>
+<p>The emoji are here to jazz it up 🌸</p>
 <ul>
     <li>Site hosting 🌐</li>
     <ul>
@@ -23,7 +26,7 @@
         </ul>
     <li>Connect to a database, is this a necessity for a portfolio?</li>
         <ul>
-            <li>✅ I have set up a Pocketbase instance on a Linode server </li>
+            <li>✅ I tested a Pocketbase instance on a Linode server which worked very nicely </li>
             <li>I like the look of setting up Prisma 😙</li>
             <li>Maybe set up basic database with Prisma then swap to Pocketbase?</li>
         </ul>

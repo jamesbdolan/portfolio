@@ -1,4 +1,4 @@
-<h1>Hello! I'm James, a DevOps engineer in Melbourne</h1>
+<h1>Hello! I'm James, a DevOps engineer in Melbourne 🇦🇺</h1>
 <p>
     I moved here from Dublin just a couple of weeks ago.
     This site is constantly improving and is here to boost my CV and showcase my skills.
@@ -23,11 +23,17 @@
         <ul>
             <li>I tried connecting this site to <a href="https://firebase.google.com/">Firebase</a> but failed 👺 </li>
             <li>Wondering is it worth using my own database to track analytics? 🤔</li>
+            <li>🧾 CV download counter</li>
         </ul>
-    <li>Connect to a database, is this a necessity for a portfolio?</li>
+    <li>Connect to a database</li>
         <ul>
             <li>✅ I tested a Pocketbase instance on a Linode server which worked very nicely </li>
             <li>I like the look of setting up Prisma 😙</li>
             <li>Maybe set up basic database with Prisma then swap to Pocketbase?</li>
+            <li>A blog input for me?</li>
+        </ul>
+    <li>Resources for visitors</li>
+        <ul>
+            <li>📄 Add CV download link</li>
         </ul>
 </ul>

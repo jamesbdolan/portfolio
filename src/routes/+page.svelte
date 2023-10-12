@@ -17,7 +17,7 @@
     <li>Become familiar with HTML and CSS</li>
         <ul>
             <li>🔁 Gotten more used to HTML, like remembering where to place the / in a closing tag 😅</li>
-            <li>✅ Added a style sheet from <a href="https://picocss.com/docs/">Pico CSS</a> 🎨</li>
+            <li><s>✅ Added a style sheet from <a href="https://picocss.com/docs/">Pico CSS</a> 🎨</s></li>
         </ul>
     <li>Website analytics 📈</li>
         <ul>

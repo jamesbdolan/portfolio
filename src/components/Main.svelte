@@ -10,8 +10,8 @@
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
 				I am based in Melbourne 🇦🇺 and available immediately. <br />
-				This site aims to consolidate and showcase my skills in DevOps <br/> and tie together the variety of things I
-				have experience in.
+				This site aims to consolidate and showcase my skills in DevOps <br /> and tie together the variety
+				of things I have experience in.
 			</p>
 			<a
 				href="www.linkedin.com/in/jamesbdolan"
@@ -24,9 +24,31 @@
 				<h4 class="relative z-9">Get in touch &rarr;</h4>
 			</a>
 		</div>
-        <div class="relative shadow-2xl grid place-items-center">
-            <img src={"images/profile2.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh]"/>
-        </div>
+		<div class="relative shadow-2xl grid place-items-center">
+			<img
+				src={'images/profile6.png'}
+				alt="Profile image"
+				class="object-cover z-[2] max-h-[70vh]"
+			/>
+		</div>
+	</section>
+	<section id="projects" class="py-20 lg:py-32 flex-col gap-24">
+		<div class="flex flex-col gap-2 text-center">
+			<h6 class="text-lg sm:text-xl md:text-2xl">A few of my creative endeavours.</h6>
+			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
+				Curious to <span class="poppins text-violet-400">see</span> my work?
+			</h3>
+            <br/>
+            <br/>
+			<a
+				href="https://youtu.be/-2UjwQzxvBQ?si=gnLOyd6WmvLMJx6d"
+				target="_blank"
+				class="mx-auto px-4 py-2 rounded-full border border-solid border-white flex item-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
+			>
+				<i class="fa-regular fa-circle-play py-1" />
+				<p>Watch the video</p>
+            </a>
+		</div>
 	</section>
 </main>
 

@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	padding: 2rem;
+html {
+    scroll-behavior: smooth;
 }
 
 * {
-	font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,

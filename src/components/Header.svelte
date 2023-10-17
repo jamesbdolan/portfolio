@@ -16,7 +16,7 @@
 	<h1 class="font-medium">
 		<b class="font-bold poppins">James</b> <span class="poppins">Dolan</span>
 	</h1>
-	<div class="sm:flex items-center gap-4 hidden">
+	<div class="sm:flex ml-auto p-4 items-center gap-4 hidden">
 		{#each tabs as tab, index}
 			<a
                 href={tab.link}

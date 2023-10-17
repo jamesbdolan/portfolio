@@ -2,9 +2,9 @@
 	import Step from './Step.svelte';
 
 	let steps = [
-		{ name: 'Portfolio', icon: 'fa-solid fa-palette' },
-		{ name: 'Python networking app', icon: 'fa-solid fa-puzzle-piece' },
-		{ name: 'Fancy devops showcase', icon: 'fa-solid fa-hammer' }
+		{ name: 'Portfolio', link: '/projects/portfolio', icon: 'fa-solid fa-palette' },
+		{ name: 'Python networking app', link: '', icon: 'fa-solid fa-puzzle-piece' },
+		{ name: 'Devops showcase', link: '', icon: 'fa-solid fa-hammer' }
 	];
 
 	let benefits = [
@@ -76,8 +76,8 @@
 				<Step step={steps[0]}>
 					Website built with SvelteKit and TailwindCSS, deployed using Netflify
 				</Step>
-				<Step step={steps[1]}>TODO</Step>
-				<Step step={steps[2]} />
+				<Step step={steps[1]}>I want to highlight that I am comfortable using a programming language such as Python</Step>
+				<Step step={steps[2]}>Show things like: my experience using AWS, using ansible, videos or some example of linux experience, a monitoring dashboard with clear rundown of how that was setup. At most basic, a series of runbooks showing how I did things?</Step>
 			</div>
 		</div>
 	</section>
@@ -112,39 +112,3 @@
 		</div>
 	</section>
 </main>
-
-<h3>Goals</h3>
-<p>The emoji are here to jazz it up 🌸</p>
-<ul>
-	<li>Site hosting 🌐</li>
-	<ul>
-		<li>✅ Registered a domain name with <a href="id.ie">Irish Domains</a> 🇮🇪</li>
-		<li>✅ Pointed my domain to Netlify nameservers 🛣️</li>
-		<li>✅ The Netlify build is triggered off commits to the Github repo 🪝</li>
-	</ul>
-	<li>Become familiar with HTML and CSS</li>
-	<ul>
-		<li>🔁 Gotten more used to HTML, like remembering where to place the / in a closing tag 😅</li>
-		<li><s>✅ Added a style sheet from <a href="https://picocss.com/docs/">Pico CSS</a> 🎨</s></li>
-	</ul>
-	<li>Website analytics 📈</li>
-	<ul>
-		<li>
-			I tried connecting this site to <a href="https://firebase.google.com/">Firebase</a> but failed
-			👺
-		</li>
-		<li>Wondering is it worth using my own database to track analytics? 🤔</li>
-		<li>🧾 CV download counter</li>
-	</ul>
-	<li>Connect to a database</li>
-	<ul>
-		<li>✅ I tested a Pocketbase instance on a Linode server which worked very nicely</li>
-		<li>I like the look of setting up Prisma 😙</li>
-		<li>Maybe set up basic database with Prisma then swap to Pocketbase?</li>
-		<li>A blog input for me?</li>
-	</ul>
-	<li>Resources for visitors</li>
-	<ul>
-		<li>📄 Add CV download link</li>
-	</ul>
-</ul>

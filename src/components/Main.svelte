@@ -30,12 +30,14 @@
 	<section id="introPage" class="grid grid-cols-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
 		<div class="flex flex-col lg_justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
 			<h2 class="font-semi-bold text-4xl sm:text-5xl md:text-6xl">
-				Hi! I'm <span class="poppins text-violet-400">James Dolan</span><br />
-				DevOps Engineer
+				Hi! I'm <span class="poppins text-white">James Dolan</span>
 			</h2>
+			<h6 class="font-semi-bold text-4xl">
+				<span class="poppins text-violet-400">DevOps Engineer</span>
+			</h6>
 			<p class="text-base sm:text-lg md:text-xl">
-				I am based in Melbourne 🇦🇺 and available immediately. <br />
-				This site aims to consolidate and showcase my skills in DevOps <br /> and tie together the variety
+				I am Irish and living in Melbourne. Available to work immediately. <br/>
+				This site aims to consolidate and showcase my skills in DevOps <br/> and tie together the variety
 				of things I have experience in.
 			</p>
 			<a

@@ -41,7 +41,7 @@
 				of things I have experience in.
 			</p>
 			<a
-				href="www.linkedin.com/in/jamesbdolan"
+				href="https://linkedin.com/in/jamesbdolan"
 				target="_blank"
 				class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 curser-pointer"
 			>

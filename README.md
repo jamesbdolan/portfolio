@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ad63dd59-3626-4f62-afb3-f6c16a811010/deploy-status)](https://app.netlify.com/sites/exquisite-rugelach-c68236/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1792c2a-74c3-477e-9be0-282d9d417e67/deploy-status)](https://app.netlify.com/sites/harmonious-khapse-20feff/deploys)
 
 # create-svelte
 

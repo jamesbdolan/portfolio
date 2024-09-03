@@ -3,7 +3,7 @@
 
 	let steps = [
 		{ name: 'Portfolio', link: '/projects/portfolio', icon: 'fa-solid fa-palette' },
-		{ name: 'Pycurity', link: 'https://github.com/jamesbdolan/pycurity', icon: 'fa-solid fa-puzzle-piece' },
+		{ name: 'TODO - Pycurity', link: 'https://github.com/jamesbdolan/pycurity', icon: 'fa-solid fa-puzzle-piece' },
 		{ name: 'TODO', link: '', icon: 'fa-solid fa-hammer' }
 	];
 
@@ -11,17 +11,17 @@
 		{
 			name: 'self starter',
 			description:
-				'I began my career as a database engineer for a martech product completing tickets for data ingestion pipelines, ETL jobs, and dashboard queries. Once I gained my credibility in the team I kickstarted and pushed for projects: reducing our memory footprint; refactoring and simplifying the codebase; migrating our codebase from SVN to Git; introducing DevOps practises.'
+				'I began my career as a database engineer for a martech product completing tickets for data ingestion pipelines, ETL jobs, and dashboard queries. I moved toward larger problems: reducing our memory footprint; refactoring and simplifying the codebase; migrating our codebase from SVN to Git; building a CI/CD pipeline.'
 		},
 		{
 			name: 'enthusiastic learner',
 			description:
-				'Whatever technology is best for the job, I am eager to learn'
+				'Eager to learn whatever technology is well-suited to the problem'
 		},
 		{
 			name: 'honest communicator',
 			description:
-				"I like to document everything I do in runbooks so that as I work, the record is clear for those after me. It also hugely benefits learning for me and my team."
+				''
 		}
 	];
 </script>
@@ -33,12 +33,11 @@
 				Hi! I'm <span class="poppins text-white">James Dolan</span>
 			</h2>
 			<h6 class="font-semi-bold text-4xl">
-				<span class="poppins text-green-500">DevOps Engineer</span>
+				<span class="poppins text-green-500">Software Engineer</span>
 			</h6>
 			<p class="text-base sm:text-lg md:text-l">
 				I am Irish and living in Melbourne. Available to work immediately. <br/>
-				This site aims to consolidate and showcase my skills in DevOps <br/> and tie together the variety
-				of things I have experience in.
+				I am a database/devops/cloud engineer
 			</p>
 			<a
 				href="https://linkedin.com/in/jamesbdolan"

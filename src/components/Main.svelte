@@ -3,23 +3,23 @@
 
 	let steps = [
 		{ name: 'Portfolio', link: '/projects/portfolio', icon: 'fa-solid fa-palette' },
-		{ name: 'Python networking app', link: '', icon: 'fa-solid fa-puzzle-piece' },
-		{ name: 'Devops showcase', link: '', icon: 'fa-solid fa-hammer' }
+		{ name: 'Pycurity', link: 'https://github.com/jamesbdolan/pycurity', icon: 'fa-solid fa-puzzle-piece' },
+		{ name: 'TODO', link: '', icon: 'fa-solid fa-hammer' }
 	];
 
 	let benefits = [
 		{
-			name: 'a self starter',
+			name: 'self starter',
 			description:
 				'I began my career as a database engineer for a martech product completing tickets for data ingestion pipelines, ETL jobs, and dashboard queries. Once I gained my credibility in the team I kickstarted and pushed for projects: reducing our memory footprint; refactoring and simplifying the codebase; migrating our codebase from SVN to Git; introducing DevOps practises.'
 		},
 		{
-			name: 'an enthusiastic learner',
+			name: 'enthusiastic learner',
 			description:
 				'Whatever technology is best for the job, I am eager to learn'
 		},
 		{
-			name: 'an excellent communicator',
+			name: 'honest communicator',
 			description:
 				"I like to document everything I do in runbooks so that as I work, the record is clear for those after me. It also hugely benefits learning for me and my team."
 		}
@@ -35,7 +35,7 @@
 			<h6 class="font-semi-bold text-4xl">
 				<span class="poppins text-violet-400">DevOps Engineer</span>
 			</h6>
-			<p class="text-base sm:text-lg md:text-xl">
+			<p class="text-base sm:text-lg md:text-l">
 				I am Irish and living in Melbourne. Available to work immediately. <br/>
 				This site aims to consolidate and showcase my skills in DevOps <br/> and tie together the variety
 				of things I have experience in.
@@ -51,19 +51,11 @@
 				<h4 class="relative z-9">Get in touch &rarr;</h4>
 			</a>
 		</div>
-		<div class="relative shadow-2xl grid place-items-center">
-			<!-- svelte-ignore a11y-img-redundant-alt -->
-			<img
-				src={'images/profile10.png'}
-				alt="Profile image"
-				class="object-cover z-[2] max-h-[70vh]"
-			/>
-		</div>
 	</section>
 	<section id="projects" class="py-32 lg:py-32 flex-col">
 		<div class="flex flex-col gap-20 text-center">
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-				Curious to <span class="poppins text-violet-400">see</span> my work?
+				Projects
 			</h3>
 			<!-- <a
 				href="https://youtu.be/-2UjwQzxvBQ?si=gnLOyd6WmvLMJx6d"
@@ -78,8 +70,10 @@
 				<Step step={steps[0]}>
 					Website built with SvelteKit and TailwindCSS, deployed using Netflify
 				</Step>
-				<Step step={steps[1]}>I want to highlight that I am comfortable using a programming language such as Python</Step>
-				<Step step={steps[2]}>Show things like: my experience using AWS, using ansible, videos or some example of linux experience, a monitoring dashboard with clear rundown of how that was setup. At most basic, a series of runbooks showing how I did things?</Step>
+				<Step step={steps[1]}>Showcasing common Python security tooling</Step>
+				<!-- <Step step={steps[2]}>Show things like: my experience using AWS, using ansible, videos or some example of linux experience, a monitoring dashboard with clear rundown of how that was setup. At most basic, a series of runbooks showing how I did things?</Step> -->
+				<Step step={steps[2]}></Step>
+
 			</div>
 		</div>
 	</section>
@@ -90,19 +84,13 @@
 		<div
 			class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
 		>
-			<h6 class="text-large sm:text-xl md:text-2xl">Want to know more?</h6>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-				A bit <span class="poppins text-violet-400">about</span> me.
+				A bit about <span class="poppins text-violet-400">me</span>.
 			</h3>
 		</div>
-		<p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
-
 		<div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
 			{#each benefits as benefit, index}
 				<div class="flex gap-6 sm:gap-8">
-					<p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
-						0{index + 1}
-					</p>
 					<div class="flex flex-col gap-6 sm:gap-8">
 						<h3 class="text-2xl sm:text-3xl md:text-5xl">
 							{benefit.name}

@@ -28,10 +28,6 @@
 		<br />
 		<li class="text-base sm:text-lg md:text-xl">Website analytics 📈</li>
 		<ul>
-			<li>
-				I tried connecting this site to <a href="https://firebase.google.com/">Firebase</a> but failed
-				👺
-			</li>
 			<li>Wondering is it worth using my own database to track analytics? 🤔</li>
 			<li>🧾 CV download counter</li>
 		</ul>

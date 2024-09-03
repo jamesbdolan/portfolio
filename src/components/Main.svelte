@@ -33,7 +33,7 @@
 				Hi! I'm <span class="poppins text-white">James Dolan</span>
 			</h2>
 			<h6 class="font-semi-bold text-4xl">
-				<span class="poppins text-violet-400">DevOps Engineer</span>
+				<span class="poppins text-green-500">DevOps Engineer</span>
 			</h6>
 			<p class="text-base sm:text-lg md:text-l">
 				I am Irish and living in Melbourne. Available to work immediately. <br/>
@@ -43,10 +43,10 @@
 			<a
 				href="https://linkedin.com/in/jamesbdolan"
 				target="_blank"
-				class="blueShadow mx-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 curser-pointer"
+				class="greenShadow mx-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 curser-pointer"
 			>
 				<div
-					class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
+					class="absolute top-0 right-full w-full h-full bg-green-500 opacity-20 group-hover:translate-x-full z-0 duration-200"
 				/>
 				<h4 class="relative z-9">Get in touch &rarr;</h4>
 			</a>
@@ -85,7 +85,7 @@
 			class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4"
 		>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-				A bit about <span class="poppins text-violet-400">me</span>.
+				A bit about <span class="poppins text-green-500">me</span>.
 			</h3>
 		</div>
 		<div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
